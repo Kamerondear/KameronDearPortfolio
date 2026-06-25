@@ -1,17 +1,30 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Web & Product Designer",
-		"company": "Company Name",
-		"description": "Leading the design of user-centric web applications and dating platforms.",
-		"logo": "/assets/experiences/company.jpg"
+		"dates": "June 2026 · Present",
+		"role": "Senior Associate Software Engineer",
+		"company": "Travelers",
+		"description": "Promoted to Senior Associate Software Engineer after completing the Engineering Development Program — continuing on the same Business Insurance team with expanded cross-service ownership and technical scope.",
+		"logo": "/assets/experiences/travelers.jpg"
 	},
 	{
-		"dates": "July 2016 · June 2017",
-		"role": "Web & Product Designer",
-		"company": "Company Name",
-		"description": "Spearheaded the design and development of e-commerce websites and online marketplaces.",
-		"logo": "/assets/experiences/company.jpg"
+		"dates": "June 2025 · June 2026",
+		"role": "Software Engineer — Engineering Development Program",
+		"company": "Travelers",
+		"description": "Cleared a ~100-issue defect backlog to unblock a major release of the company's commercial insurance pricing platform. Shipped 23 pull requests across 3 services and delivered 50 code reviews across 13 repositories. Diagnosed and resolved a decade-old production defect causing premium miscalculations, coordinating the fix across multiple teams to production. Earned two GenAI certifications and joined the enterprise Security Champions program, applying AI and secure-development practices to delivery.",
+		"logo": "/assets/experiences/travelers.jpg"
+	},
+	{
+		"dates": "June 2024 · August 2024",
+		"role": "Engineering Development Program Intern",
+		"company": "Travelers",
+		"description": "Contributed to Core Capabilities team projects within the Business Insurance Product Value Stream, focusing on cloud modernization. Led the migration of over 11 policies to a modernized format, reducing data management overhead. Conducted unit and integration testing. Participated in Agile sprint planning, stand-ups, and retrospectives.",
+		"logo": "/assets/experiences/travelers.jpg"
+	},
+	{
+		"dates": "June 2023 · October 2023",
+		"role": "Networking Student Worker",
+		"company": "CCSU Information Technology",
+		"description": "Troubleshot network connectivity issues and collaborated with the network team to diagnose and resolve problems. Assisted in installing and configuring new network equipment, documenting network diagrams, and maintaining inventory.",
+		"logo": "/assets/experiences/ccsu.png"
 	}
-
 ]

@@ -1,0 +1,43 @@
+---
+import PostLayout from "@/layouts/PostLayout.astro";
+import PageHeader from "@/components/elements/PageHeader.astro";
+import ActionBar from "@/components/widgets/ActionBar.astro";
+import SeparatorLine from "@/components/elements/SeparatorLine.astro";
+---
+<PostLayout
+	title="Welcome Abord — Travelers Injam"
+	description="A centralized employee onboarding web app built during the Travelers Injam hackathon. Achieved 2nd place."
+	keywords="Welcome Abord, Travelers, hackathon, React, TailwindCSS, onboarding, Injam"
+>
+	<div class="work article">
+		<main class="work-wrapper">
+			<PageHeader
+				title="Welcome Abord — Travelers Injam"
+				tags={["React", "TailwindCSS", "Hackathon", "2nd Place"]}
+				className="mb-6 md:mb-8"
+			/>
+			<div class="site-container m-auto">
+				<SeparatorLine />
+			</div>
+			<section class="article-content">
+				<div class="site-container mx-auto my-8 md:my-16">
+					<div>
+						<p>
+							Welcome Abord was built during the Travelers Injam competition in Summer 2024 — an internal hackathon held during my internship at Travelers. The app centralizes the new employee onboarding experience into a single, intuitive web interface, reducing friction for first-day hires navigating tools, teams, and resources.
+						</p>
+						<p>Highlights</p>
+						<ul>
+							<li>✅ <strong>2nd Place:</strong> Awarded runner-up out of all competing teams in the Travelers Injam competition.</li>
+							<li>✅ <strong>React + TailwindCSS:</strong> Built with the Travelers Design System (TDS) for a polished, on-brand UI.</li>
+							<li>✅ <strong>Centralized Onboarding:</strong> Unified access to training materials, team introductions, IT setup guides, and first-week checklists.</li>
+							<li>✅ <strong>Rapid Prototyping:</strong> Designed and shipped a working product within the hackathon time constraint.</li>
+						</ul>
+						<p><strong>Tech Stack:</strong> React, TailwindCSS, Travelers Design System (TDS)</p>
+						<p><strong>Event:</strong> Travelers Injam Competition, Summer 2024</p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<ActionBar logo="/assets/experiences/company.jpg" tags={["React", "TailwindCSS", "Hackathon"]} url="https://github.com/kamerondear" visitLabel="View on GitHub" />
+</PostLayout>

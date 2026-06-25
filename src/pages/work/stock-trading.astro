@@ -1,0 +1,45 @@
+---
+import PostLayout from "@/layouts/PostLayout.astro";
+import PageHeader from "@/components/elements/PageHeader.astro";
+import ActionBar from "@/components/widgets/ActionBar.astro";
+import SeparatorLine from "@/components/elements/SeparatorLine.astro";
+---
+<PostLayout
+	title="Stock Trading Platform"
+	description="A full-stack stock trading simulation web app built with Node.js, SQLite, and vanilla JavaScript for CS416 Web Programming."
+	keywords="stock trading, full-stack, Node.js, SQLite, JavaScript, web app, CS416"
+>
+	<div class="work article">
+		<main class="work-wrapper">
+			<PageHeader
+				title="Stock Trading Platform"
+				tags={["Node.js", "JavaScript", "SQLite", "Full-Stack"]}
+				className="mb-6 md:mb-8"
+			/>
+			<div class="site-container m-auto">
+				<SeparatorLine />
+			</div>
+			<section class="article-content">
+				<div class="site-container mx-auto my-8 md:my-16">
+					<div>
+						<p>
+							A full-stack stock trading simulation platform built as the final project for CS416 Web Programming at CCSU. Users can create accounts, log in, browse live stock data, and manage a virtual portfolio — all backed by a Node.js server and a SQLite database.
+						</p>
+						<p>Features</p>
+						<ul>
+							<li>✅ <strong>User Authentication:</strong> Secure login and registration with hashed passwords.</li>
+							<li>✅ <strong>Portfolio Management:</strong> View and manage a personal stock portfolio with buy/sell simulation.</li>
+							<li>✅ <strong>Live Stock Data:</strong> Integrated external stock API to fetch and display real market data.</li>
+							<li>✅ <strong>Node.js Backend:</strong> Custom Express server handling routing, API calls, and database queries.</li>
+							<li>✅ <strong>SQLite Database:</strong> Relational schema managing users, portfolios, and transaction history.</li>
+							<li>✅ <strong>Multi-page Frontend:</strong> Separate pages for login, home, stock browser, and portfolio view built with vanilla HTML/CSS/JS.</li>
+						</ul>
+						<p><strong>Tech Stack:</strong> Node.js, Express, SQLite, JavaScript, HTML, CSS</p>
+						<p><strong>Course:</strong> CS416 Web Programming, CCSU Fall 2024</p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<ActionBar logo="/assets/experiences/company.jpg" tags={["Node.js", "SQLite", "Full-Stack"]} url="https://github.com/kamerondear" visitLabel="View on GitHub" />
+</PostLayout>

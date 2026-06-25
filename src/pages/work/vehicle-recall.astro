@@ -1,0 +1,44 @@
+---
+import PostLayout from "@/layouts/PostLayout.astro";
+import PageHeader from "@/components/elements/PageHeader.astro";
+import ActionBar from "@/components/widgets/ActionBar.astro";
+import SeparatorLine from "@/components/elements/SeparatorLine.astro";
+---
+<PostLayout
+	title="Vehicle Recall UI — The Hartford"
+	description="A React application built for The Hartford that surfaces NHTSA vehicle recall data, developed in an Agile team environment."
+	keywords="Vehicle Recall, React, The Hartford, NHTSA, Agile, Scrum, Software Engineering"
+>
+	<div class="work article">
+		<main class="work-wrapper">
+			<PageHeader
+				title="Vehicle Recall UI — The Hartford"
+				tags={["React", "Agile", "Client Project", "NHTSA"]}
+				className="mb-6 md:mb-8"
+			/>
+			<div class="site-container m-auto">
+				<SeparatorLine />
+			</div>
+			<section class="article-content">
+				<div class="site-container mx-auto my-8 md:my-16">
+					<div>
+						<p>
+							Built for CS410 Software Engineering at CCSU, this was a real-world client engagement with The Hartford — one of the largest insurance companies in the U.S. Our team delivered a React web application that integrates with the NHTSA vehicle recall database to help users look up recall information for their vehicles.
+						</p>
+						<p>Highlights</p>
+						<ul>
+							<li>✅ <strong>Real Client:</strong> Delivered directly for The Hartford through a structured client-team relationship with kickoff meetings, sprint reviews, and retrospectives.</li>
+							<li>✅ <strong>NHTSA Data Integration:</strong> Queries live recall data from the National Highway Traffic Safety Administration API.</li>
+							<li>✅ <strong>Agile Development:</strong> Full sprint cycle — product backlog, sprint planning, weekly standups, and retrospectives across multiple sprints.</li>
+							<li>✅ <strong>React Frontend:</strong> Component-based UI built with React and a clean, accessible interface.</li>
+							<li>✅ <strong>System Requirements:</strong> Formal requirements gathering and documentation produced for the client.</li>
+						</ul>
+						<p><strong>Tech Stack:</strong> React, JavaScript, HTML/CSS, NHTSA API</p>
+						<p><strong>Team:</strong> G-Unit — 5-person Agile team, CCSU Spring 2025</p>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<ActionBar logo="/assets/experiences/company.jpg" tags={["React", "Agile", "Client Project"]} url="https://github.com/kamerondear" visitLabel="View on GitHub" />
+</PostLayout>

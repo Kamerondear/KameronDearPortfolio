@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="50" fill="#C8102E"/>
+  <!-- Umbrella canopy -->
+  <path d="M50 18 C28 18 18 34 18 46 C18 46 26 40 34 44 C38 36 42 32 50 32 C58 32 62 36 66 44 C74 40 82 46 82 46 C82 34 72 18 50 18 Z" fill="white"/>
+  <!-- Umbrella shaft -->
+  <rect x="48" y="44" width="4" height="28" rx="2" fill="white"/>
+  <!-- Umbrella handle -->
+  <path d="M48 72 Q44 72 44 76 Q44 82 50 82 Q56 82 56 76" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>
