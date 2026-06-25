@@ -1,5 +1,5 @@
 ---
-const { logo, dates, role, company, description } = Astro.props;
+const { logo, dates, role, company, description, projects } = Astro.props;
 ---
 
 <div class="relative flex flex-col justify-start pl-12">
@@ -9,9 +9,7 @@ const { logo, dates, role, company, description } = Astro.props;
     <img src={logo} alt={company} class="w-8 h-8 rounded-full" />
   </div>
 
-  <p
-    class="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest"
-  >
+  <p class="text-xs uppercase text-neutral-400 dark:text-neutral-500 trackign-widest">
     {dates}
   </p>
   <h3 class="my-1 text-lg font-semibold dark:text-neutral-200">{role}</h3>
@@ -19,4 +17,22 @@ const { logo, dates, role, company, description } = Astro.props;
   <p class="text-sm font-light text-neutral-600 dark:text-neutral-400">
     {description}
   </p>
+
+  {projects && projects.length > 0 && (
+    <div class="mt-4 flex flex-col gap-3">
+      {projects.map((project: { name: string; description: string; tags: string[] }) => (
+        <div class="rounded-xl border border-neutral-200 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800/50 px-4 py-3">
+          <p class="text-sm font-semibold text-neutral-800 dark:text-neutral-200 mb-1">{project.name}</p>
+          <p class="text-xs font-light text-neutral-500 dark:text-neutral-400 leading-relaxed mb-2">{project.description}</p>
+          <div class="flex flex-wrap gap-1.5">
+            {project.tags.map((tag: string) => (
+              <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-neutral-200 dark:bg-neutral-700 text-neutral-600 dark:text-neutral-300">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  )}
 </div>

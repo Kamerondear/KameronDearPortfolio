@@ -18,7 +18,14 @@
 		"role": "Engineering Development Program Intern",
 		"company": "Travelers",
 		"description": "Contributed to Core Capabilities team projects within the Business Insurance Product Value Stream, focusing on cloud modernization. Led the migration of over 11 policies to a modernized format, reducing data management overhead. Conducted unit and integration testing. Participated in Agile sprint planning, stand-ups, and retrospectives.",
-		"logo": "/assets/experiences/travelers.jpg"
+		"logo": "/assets/experiences/travelers.jpg",
+		"projects": [
+			{
+				"name": "Welcome Abord",
+				"description": "Centralized new-hire onboarding app built during the Travelers Injam internal hackathon. Unified access to training materials, team info, IT setup, and first-week checklists into a single interface.",
+				"tags": ["React", "TailwindCSS", "Hackathon", "2nd Place"]
+			}
+		]
 	},
 	{
 		"dates": "June 2023 · October 2023",

@@ -13,12 +13,5 @@
 		"tags": ["Node.js", "JavaScript", "SQLite"],
 		"image": "/assets/works/stock-trading.jpg",
 		"url": "/work/stock-trading"
-	},
-	{
-		"name": "Welcome Abord",
-		"description": "Travelers Injam Hackathon — 2nd Place",
-		"tags": ["React", "TailwindCSS", "Hackathon"],
-		"image": "/assets/works/welcome-abord.jpg",
-		"url": "/work/welcome-abord"
 	}
 ]
