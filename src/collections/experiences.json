@@ -10,7 +10,7 @@
 		"dates": "June 2025 · June 2026",
 		"role": "Software Engineer — Engineering Development Program",
 		"company": "Travelers",
-		"description": "Cleared a ~100-issue defect backlog to unblock a major release of the company's commercial insurance pricing platform. Shipped 23 pull requests across 3 services and delivered 50 code reviews across 13 repositories. Diagnosed and resolved a decade-old production defect causing premium miscalculations, coordinating the fix across multiple teams to production. Earned two GenAI certifications and joined the enterprise Security Champions program, applying AI and secure-development practices to delivery.",
+		"description": "Cleared a ~100-issue defect backlog to unblock a major release of the company's commercial insurance pricing platform. Built an AI agent pipeline using Claude that ingested Jira stories, reasoned over the required code changes, and autonomously opened pull requests — accelerating defect resolution across the backlog. Diagnosed and resolved a decade-old production defect causing premium miscalculations, coordinating the fix across multiple teams to production. Earned two GenAI certifications and joined the enterprise Security Champions program, applying AI and secure-development practices to delivery.",
 		"logo": "/assets/experiences/travelers.jpg"
 	},
 	{
