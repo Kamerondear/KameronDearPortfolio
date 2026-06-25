@@ -21,6 +21,18 @@ import SeparatorLine from "@/components/elements/SeparatorLine.astro";
 			</div>
 			<section class="article-content">
 				<div class="site-container mx-auto my-8 md:my-16">
+					<div class="grid grid-cols-2 gap-4 mb-10">
+						<img
+							src="/assets/works/hartford-logo.png"
+							alt="The Hartford logo"
+							class="w-full rounded-2xl object-contain bg-white p-8 h-[220px]"
+						/>
+						<img
+							src="/assets/works/vehicles.jpg"
+							alt="Vehicles on a road"
+							class="w-full rounded-2xl object-cover h-[220px]"
+						/>
+					</div>
 					<div>
 						<p>
 							Built for CS410 Software Engineering at CCSU, this was a real-world client engagement with The Hartford — one of the largest insurance companies in the U.S. Our team delivered a React web application that integrates with the NHTSA vehicle recall database to help users look up recall information for their vehicles.
@@ -30,7 +42,7 @@ import SeparatorLine from "@/components/elements/SeparatorLine.astro";
 							<li>✅ <strong>Real Client:</strong> Delivered directly for The Hartford through a structured client-team relationship with kickoff meetings, sprint reviews, and retrospectives.</li>
 							<li>✅ <strong>NHTSA Data Integration:</strong> Queries live recall data from the National Highway Traffic Safety Administration API.</li>
 							<li>✅ <strong>Agile Development:</strong> Full sprint cycle — product backlog, sprint planning, weekly standups, and retrospectives across multiple sprints.</li>
-							<li>✅ <strong>React Frontend:</strong> Component-based UI built with React and a clean, accessible interface.</li>
+							<li>✅ <strong>React Frontend:</strong> Component-based UI built with React with a clean, accessible interface.</li>
 							<li>✅ <strong>System Requirements:</strong> Formal requirements gathering and documentation produced for the client.</li>
 						</ul>
 						<p><strong>Tech Stack:</strong> React, JavaScript, HTML/CSS, NHTSA API</p>
@@ -40,5 +52,5 @@ import SeparatorLine from "@/components/elements/SeparatorLine.astro";
 			</section>
 		</main>
 	</div>
-	<ActionBar logo="/assets/experiences/company.jpg" tags={["React", "Agile", "Client Project"]} url="https://github.com/kamerondear" visitLabel="View on GitHub" />
+	<ActionBar logo="/assets/works/hartford-logo.png" tags={["React", "Agile", "Client Project"]} url="https://github.com/kamerondear" visitLabel="View on GitHub" />
 </PostLayout>
