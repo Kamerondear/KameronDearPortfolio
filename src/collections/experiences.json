@@ -3,14 +3,14 @@
 		"dates": "June 2026 · Present",
 		"role": "Senior Associate Software Engineer",
 		"company": "Travelers",
-		"description": "Promoted to Senior Associate Software Engineer after completing the Engineering Development Program — continuing on the same Business Insurance team with expanded cross-service ownership and technical scope.",
+		"description": "Promoted to Senior Associate Software Engineer after completing the Engineering Development Program — continuing on the same Business Insurance team with expanded cross-service ownership and technical scope. Currently building a policy creator tool that automates the generation of test insurance policies for developers. Once fully rolled out, the tool is projected to save hundreds of hours across dozens of developers within the Business Insurance value stream.",
 		"logo": "/assets/experiences/travelers.jpg"
 	},
 	{
 		"dates": "June 2025 · June 2026",
 		"role": "Software Engineer — Engineering Development Program",
 		"company": "Travelers",
-		"description": "Cleared a ~100-issue defect backlog to unblock a major release of the company's commercial insurance pricing platform. Built an AI agent pipeline using Claude that ingested Jira stories, reasoned over the required code changes, and autonomously opened pull requests — accelerating defect resolution across the backlog. Diagnosed and resolved a decade-old production defect causing premium miscalculations, coordinating the fix across multiple teams to production. Earned two GenAI certifications and joined the enterprise Security Champions program, applying AI and secure-development practices to delivery.",
+		"description": "Cleared a ~100-issue defect backlog to unblock a major release of the company's commercial insurance pricing platform. Built an AI agent pipeline using Claude that ingested Jira stories, reasoned over the required code changes, and autonomously opened pull requests — accelerating defect resolution across the backlog. Diagnosed and resolved a decade-old production defect causing premium miscalculations, coordinating the fix across multiple teams to production. Resolved data precision errors in an actuarial pricing tool, presenting the fix to the architect. Implemented data field mappings for a commercial insurance rating service upgrade, enabling the system to process claims from multiple external and internal sources. Earned AWS Cloud Practitioner and two GenAI certifications; joined the enterprise Security Champions program.",
 		"logo": "/assets/experiences/travelers.jpg"
 	},
 	{
